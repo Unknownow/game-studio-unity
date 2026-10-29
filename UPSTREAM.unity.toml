@@ -1,0 +1,43 @@
+# Maps the Unity layer of the upstream repo (Claude Code Game Studios) to the files that replace it in this repo.
+# `python tools/studio.py upstream-diff --coverage` reads it next to UPSTREAM.toml; a map here wins over the
+# base `engine-layer:` ignores of the same paths.
+
+[upstream]
+repo = "https://github.com/Donchitos/Claude-Code-Game-Studios"
+tag = "v1.2.0"
+
+[[map]]
+from = ".claude/skills/dev-story/references/engine-checks.md"
+to = "ENGINE.md"
+
+[[map]]
+from = "docs/engine-reference/unity/**"
+to = "engine-reference/unity/"
+
+[[map]]
+from = ".claude/agents/unity-specialist.md"
+to = "roles/unity-specialist.md"
+
+[[map]]
+from = ".claude/agents/unity-addressables-specialist.md"
+to = "roles/unity-addressables-specialist.md"
+
+[[map]]
+from = ".claude/agents/unity-dots-specialist.md"
+to = "roles/unity-dots-specialist.md"
+
+[[map]]
+from = ".claude/agents/unity-shader-specialist.md"
+to = "roles/unity-shader-specialist.md"
+
+[[map]]
+from = ".claude/agents/unity-ui-specialist.md"
+to = "roles/unity-ui-specialist.md"
+
+[[map]]
+from = "studio-tests/agents/engine/unity/**"
+to = "studio-tests/agents/engine/unity/"
+
+[[map]]
+from = ".claude/rules/scene-files.md"
+to = "rules/unity/scene-files.md"

@@ -1,0 +1,12 @@
+[engine]
+name = "unity"
+lts = "6.3"
+editor_line = "6000.3"
+code_root = "Assets"
+tests_root = "Assets/Tests"
+project_marker = "ProjectSettings/ProjectVersion.txt"
+data_globs = ["Assets/**/Data/**/*.json"]
+
+[defaults]
+"engine.name" = "unity"
+"engine.version" = "6.3 LTS"

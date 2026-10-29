@@ -1,0 +1,8 @@
+# Unity engine layer: files the template owns and `update` replaces.
+ENGINE.md
+engine.toml
+engine-reference/**
+roles/unity-*.md
+rules/unity/**
+tools/gamestudio/engines/unity.py
+studio-tests/agents/engine/unity/**
