@@ -1,0 +1,14 @@
+{
+  "name": "com.unknownow.studio-tools",
+  "version": "0.1.0",
+  "displayName": "Game Studio Tools",
+  "unity": "6000.3",
+  "description": "Editor tools for the game-studio-unity template: evidence capture, batch tests, a missing-reference audit and a project settings check.",
+  "author": {
+    "name": "Cuong Bui"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "com.unity.test-framework": "1.6.0"
+  }
+}
